@@ -1,0 +1,83 @@
+.BoardGraphMainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+.BoardGraphMainContainer h3 {
+  margin-block-start: 1em;
+  margin-block-end: 0.25em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  left: 2rem;
+  color: #000000;
+}
+
+.BoardGraphMainContainer h4 {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  position: relative;
+  left: 2rem;
+  cursor: pointer;
+  color: #858585;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.BoardGraphContainer {
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .BoardContainer {
+    width: 100%;
+    border-radius: 0;
+    height: auto;
+  }
+  .BoardContainer h1 {
+    font-size: 24px;
+    line-height: 30px;
+    left: 0;
+    top: 2%;
+    text-align: center;
+  }
+  .BoardFooter {
+    left: 0;
+    top: auto;
+    margin-top: 20px;
+  }
+  .BoardFooterCards {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .MappedBoardFooterCards {
+    margin-bottom: 20px;
+  }
+  .CardTwoHeadings, .CardOneHeadings {
+    gap: 20px;
+  }
+  .BoardGraphMainContainer h3, .BoardGraphMainContainer h4 {
+    left: 0;
+    text-align: center;
+  }
+  .BoardGraphContainer {
+    padding: 0;
+  }
+}
